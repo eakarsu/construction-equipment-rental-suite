@@ -1,9 +1,111 @@
 # Construction Equipment Rental Suite Source Data Tables
 
-Mapped source projects: 0
+Mapped source projects: 5
 
-Detected source tables: 0
+Detected source tables: 103
 
 | Source Project | Table | Framework | Columns | Source File |
 | --- | --- | --- | ---: | --- |
-
+| AICommercialKitchenEquipmentMaintenance | compliance_records | SQL | 15 | backend/seeds/seed.js |
+| AICommercialKitchenEquipmentMaintenance | cost_records | SQL | 14 | backend/seeds/seed.js |
+| AICommercialKitchenEquipmentMaintenance | diagnostic_logs | SQL | 12 | backend/seeds/seed.js |
+| AICommercialKitchenEquipmentMaintenance | energy_logs | SQL | 14 | backend/seeds/seed.js |
+| AICommercialKitchenEquipmentMaintenance | equipment | SQL | 15 | backend/seeds/seed.js |
+| AICommercialKitchenEquipmentMaintenance | gap_features | SQL | 6 | backend/routes/gap_0_mounted_chat_style_ai_endpoints_despite_aicenter.js |
+| AICommercialKitchenEquipmentMaintenance | gap_features | SQL | 6 | backend/routes/gap_no_ai_diagnostic_from_photo_error_code_lookup.js |
+| AICommercialKitchenEquipmentMaintenance | gap_features | SQL | 6 | backend/routes/gap_no_ai_predictive_failure_model_from_equipment_tele.js |
+| AICommercialKitchenEquipmentMaintenance | gap_features | SQL | 6 | backend/routes/gap_no_ai_service_manual_q_a_for_technicians.js |
+| AICommercialKitchenEquipmentMaintenance | gap_features | SQL | 6 | backend/routes/gap_no_customer_self_service_repair_request_portal.js |
+| AICommercialKitchenEquipmentMaintenance | gap_features | SQL | 6 | backend/routes/gap_no_direct_fsm_platform_api_client_servicetitan_hou.js |
+| AICommercialKitchenEquipmentMaintenance | gap_features | SQL | 6 | backend/routes/gap_no_iot_telemetry_stream_ingestion.js |
+| AICommercialKitchenEquipmentMaintenance | gap_features | SQL | 6 | backend/routes/gap_no_mobile_technician_app_with_offline_mode.js |
+| AICommercialKitchenEquipmentMaintenance | gap_features | SQL | 6 | backend/routes/gap_no_supplier_order_workflow_on_parts_catalog.js |
+| AICommercialKitchenEquipmentMaintenance | gap_features | SQL | 6 | backend/routes/gap_notification_routes_exist_but_no_sms_push_delivery.js |
+| AICommercialKitchenEquipmentMaintenance | maintenance_schedules | SQL | 14 | backend/seeds/seed.js |
+| AICommercialKitchenEquipmentMaintenance | parts_inventory | SQL | 16 | backend/seeds/seed.js |
+| AICommercialKitchenEquipmentMaintenance | technicians | SQL | 16 | backend/seeds/seed.js |
+| AICommercialKitchenEquipmentMaintenance | users | SQL | 7 | backend/seeds/seed.js |
+| AICommercialKitchenEquipmentMaintenance | vendors | SQL | 17 | backend/seeds/seed.js |
+| AICommercialKitchenEquipmentMaintenance | work_orders | SQL | 15 | backend/seeds/seed.js |
+| AIConstructionWearableSafetyMonitor | airquality | SQL | 14 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | emergency | SQL | 13 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | environmental | SQL | 12 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | equipment | SQL | 13 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | falls | SQL | 13 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | fatigue | SQL | 12 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | gap_features | SQL | 7 | backend/routes/gap_hazards_ppe_lack_ai_risk_scoring.js |
+| AIConstructionWearableSafetyMonitor | gap_features | SQL | 7 | backend/routes/gap_limited_integration_with_wearable_apis_apple_watch_fitbit_ou.js |
+| AIConstructionWearableSafetyMonitor | gap_features | SQL | 7 | backend/routes/gap_maintenance_lacks_predictive_maintenance_scheduling_ai.js |
+| AIConstructionWearableSafetyMonitor | gap_features | SQL | 7 | backend/routes/gap_no_geofenced_site_map_management.js |
+| AIConstructionWearableSafetyMonitor | gap_features | SQL | 7 | backend/routes/gap_no_insurance_liability_tracking_or_claims_module.js |
+| AIConstructionWearableSafetyMonitor | gap_features | SQL | 7 | backend/routes/gap_no_payment_billing_module.js |
+| AIConstructionWearableSafetyMonitor | gap_features | SQL | 7 | backend/routes/gap_no_webhooks_for_sensor_pushes.js |
+| AIConstructionWearableSafetyMonitor | gap_features | SQL | 7 | backend/routes/gap_proximity_falls_lack_dedicated_ai_endpoints_for_collision_pr.js |
+| AIConstructionWearableSafetyMonitor | hazards | SQL | 11 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | heatstress | SQL | 13 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | incidents | SQL | 12 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | maintenance | SQL | 13 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | noise | SQL | 13 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | ppe | SQL | 15 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | proximity | SQL | 12 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | training | SQL | 12 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | users | SQL | 6 | backend/seed.js |
+| AIConstructionWearableSafetyMonitor | workers | SQL | 12 | backend/seed.js |
+| AIEquipmentRentalPlatform | bids | SQL | 8 | backend/routes/bids.js |
+| AIEquipmentRentalPlatform | damage_reports | SQL | 10 | backend/routes/damageReports.js |
+| AIEquipmentRentalPlatform | equipment | SQL | 15 | backend/seed.js |
+| AIEquipmentRentalPlatform | gap_features | SQL | 6 | backend/routes/batch03Gaps.js |
+| AIEquipmentRentalPlatform | identity_verifications | SQL | 8 | backend/routes/identity.js |
+| AIEquipmentRentalPlatform | password_reset_tokens | SQL | 6 | backend/routes/auth.js |
+| AIEquipmentRentalPlatform | pricing_rules | SQL | 8 | backend/routes/customViews.js |
+| AIEquipmentRentalPlatform | rentals | SQL | 10 | backend/seed.js |
+| AIEquipmentRentalPlatform | reviews | SQL | 7 | backend/seed.js |
+| AIEquipmentRentalPlatform | users | SQL | 7 | backend/seed.js |
+| AIFleetMaintenanceScheduler | ai_predictions | SQL | 8 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | ai_results | SQL | 8 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | alerts | SQL | 10 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | compliance_records | SQL | 12 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | cost_records | SQL | 12 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | downtime_records | SQL | 12 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | driver_assignments | SQL | 10 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | drivers | SQL | 15 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | fuel_records | SQL | 14 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | gap_features | SQL | 6 | backend/routes/batch03Gaps.js |
+| AIFleetMaintenanceScheduler | incidents | SQL | 20 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | inspections | SQL | 23 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | maintenance_records | SQL | 12 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | maintenance_schedule | SQL | 13 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | parts_inventory | SQL | 13 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | tires | SQL | 17 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | trip_logs | SQL | 19 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | users | SQL | 6 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | vehicles | SQL | 15 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | vendors | SQL | 18 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | warranties | SQL | 16 | backend/db/init.sql |
+| AIFleetMaintenanceScheduler | work_orders | SQL | 15 | backend/db/init.sql |
+| AIPredictiveMaintenance | ai_predictions | SQL | 6 | backend/src/routes/ai.js |
+| AIPredictiveMaintenance | ai_predictions | SQL | 6 | backend/src/routes/failureAnalysis.js |
+| AIPredictiveMaintenance | ai_predictions | SQL | 6 | backend/src/routes/sensorIngest.js |
+| AIPredictiveMaintenance | alerts | SQL | 10 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | cmms_sync_log | SQL | 7 | backend/src/routes/cmms.js |
+| AIPredictiveMaintenance | cost_records | SQL | 8 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | equipment | SQL | 12 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | failure_analysis | SQL | 11 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | gap_features | SQL | 8 | backend/src/routes/gapFeat_alerts_without_alert.js |
+| AIPredictiveMaintenance | gap_features | SQL | 8 | backend/src/routes/gapFeat_cmms_iot_oee_modules_exist_but_real_third.js |
+| AIPredictiveMaintenance | gap_features | SQL | 8 | backend/src/routes/gapFeat_limited_notifications_layer.js |
+| AIPredictiveMaintenance | gap_features | SQL | 8 | backend/src/routes/gapFeat_no_digital.js |
+| AIPredictiveMaintenance | gap_features | SQL | 8 | backend/src/routes/gapFeat_no_integration_with_asset_management_purchase_depr.js |
+| AIPredictiveMaintenance | gap_features | SQL | 8 | backend/src/routes/gapFeat_no_mobile_app_for_field_technicians_grep_0_react.js |
+| AIPredictiveMaintenance | gap_features | SQL | 8 | backend/src/routes/gapFeat_no_webhooks_for_external_systems.js |
+| AIPredictiveMaintenance | gap_features | SQL | 8 | backend/src/routes/gapFeat_workorders_without_workorder.js |
+| AIPredictiveMaintenance | iot_devices | SQL | 9 | backend/src/routes/iot.js |
+| AIPredictiveMaintenance | maintenance_logs | SQL | 12 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | maintenance_schedules | SQL | 11 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | oee_records | SQL | 11 | backend/src/routes/oee.js |
+| AIPredictiveMaintenance | reports | SQL | 9 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | sensor_readings | SQL | 5 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | sensors | SQL | 11 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | spare_parts | SQL | 12 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | users | SQL | 6 | backend/src/db/schema.sql |
+| AIPredictiveMaintenance | work_orders | SQL | 13 | backend/src/db/schema.sql |
